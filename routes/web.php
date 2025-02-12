@@ -389,3 +389,8 @@ Route::get('/lampa', function () {
     </html>', 200)
     ->header('Content-Type', 'text/html');
 });
+
+
+Route::get('/hello', function () {
+    return "Hello world!!";
+});
